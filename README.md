@@ -1,2 +1,9 @@
-# goit-markup-hw-06
-Tarea 6 del curso Full Stack de GoIT.
+# Tarea 6
+
+Sexta entrega de la tarea del curso Full Stack de GoIT.
+
+El diseño de la página lo encuentra en el siguiente enlace:
+[Diseño Figma](https://www.figma.com/file/PbLsPaq3rqdlmDubktEo3F/Web-Studio-Project?node-id=1%3A1821)
+
+Para ver la página web funcionando, has clic en el enlace:
+[Página en vivo](https://jonathanpabon-dev.github.io/goit-markup-hw-06/)
