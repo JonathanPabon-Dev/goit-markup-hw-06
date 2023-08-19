@@ -410,6 +410,24 @@
             </li>
           </ul>
         </div>
+        <div class="footer-suscribe">
+          <h3 class="suscribe-title">SUSCRÍBASE al boletín informativo</h3>
+          <form class="suscribe-form">
+            <input
+              class="suscribe-input"
+              type="email"
+              name="email"
+              placeholder="Correo electrónico"
+              required
+            />
+            <button class="suscribe-btn btn" type="submit">
+              <span>Suscríbase</span>
+              <svg class="suscribe-send-icon">
+                <use href="./images/icons.svg#icon-send"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
 
@@ -420,6 +438,40 @@
             <use href="./images/icons.svg#icon-close-modal"></use>
           </svg>
         </button>
+        <form class="modal-form">
+          <fieldset class="form-group">
+            <legend class="group-title">Deje sus datos, nos contactaremos con usted</legend>
+            <label class="form-label">
+              Nombre
+              <input class="form-input" type="text" name="nombre" autofocus />
+            </label>
+            <label class="form-label">
+              Teléfono
+              <input class="form-input" type="tel" name="telefono" />
+            </label>
+            <label class="form-label">
+              E-mail
+              <input class="form-input" type="email" name="email" />
+            </label>
+            <label class="form-label">
+              Comentarios
+              <textarea
+                class="t-a"
+                name="comentarios"
+                rows="6"
+                placeholder="Introduzca el texto"
+              ></textarea>
+            </label>
+          </fieldset>
+          <div class="form-field">
+            <input class="chb" type="checkbox" name="cb-terminos" value="terms" id="terms" />
+            <label class="form-label" for="terms"
+              >Estoy de acuerdo con el boletín informativo y acepto los Términos y
+              Condiciones</label
+            >
+          </div>
+          <button class="modal-form-btn btn" type="submit">Enviar</button>
+        </form>
       </div>
     </div>
 
