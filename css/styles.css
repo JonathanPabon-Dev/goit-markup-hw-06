@@ -708,3 +708,7 @@ body {
 .form-terms-label:focus-within .form-terms-icon {
   fill: var(--highlighted-color);
 }
+
+.form-terms-ch {
+  display: none;
+}
