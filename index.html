@@ -416,7 +416,7 @@
             <input
               class="suscribe-input"
               type="email"
-              name="email"
+              name="sub_email"
               placeholder="Correo electrónico"
               required
             />
@@ -443,32 +443,42 @@
             <legend class="group-title">Deje sus datos, nos contactaremos con usted</legend>
             <label class="form-label">
               Nombre
-              <input class="form-input" type="text" name="nombre" autofocus />
+              <input class="form-input" type="text" name="nombre" />
+              <svg class="form-icon">
+                <use href="./images/icons.svg#icon-person"></use>
+              </svg>
             </label>
             <label class="form-label">
               Teléfono
               <input class="form-input" type="tel" name="telefono" />
+              <svg class="form-icon">
+                <use href="./images/icons.svg#icon-phone"></use>
+              </svg>
             </label>
             <label class="form-label">
               E-mail
               <input class="form-input" type="email" name="email" />
+              <svg class="form-icon">
+                <use href="./images/icons.svg#icon-email"></use>
+              </svg>
             </label>
             <label class="form-label">
               Comentarios
               <textarea
-                class="t-a"
+                class="form-ta"
                 name="comentarios"
-                rows="6"
+                rows="5"
                 placeholder="Introduzca el texto"
               ></textarea>
             </label>
           </fieldset>
           <div class="form-field">
-            <input class="chb" type="checkbox" name="cb-terminos" value="terms" id="terms" />
-            <label class="form-label" for="terms"
-              >Estoy de acuerdo con el boletín informativo y acepto los Términos y
-              Condiciones</label
-            >
+            <label class="form-terms-label" for="terms">
+              <svg class="form-terms-icon">
+                <use href="./images/icons.svg#icon-checkbox"></use>
+              </svg>
+              <p class="form-terms-text">Estoy de acuerdo con el boletín informativo y acepto los Términos y Condiciones</p>
+            </label>
           </div>
           <button class="modal-form-btn btn" type="submit">Enviar</button>
         </form>
