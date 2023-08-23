@@ -30,6 +30,11 @@ body {
   color: var(--main-text-color);
 }
 
+:focus,
+:focus-within {
+  outline: none;
+}
+
 .container {
   width: 1200px;
   margin: 0 auto;
@@ -638,6 +643,7 @@ body {
 
 .form-terms-label {
   display: flex;
+  align-items: baseline;
   gap: 7px;
   cursor: pointer;
   font-size: 14px;
@@ -695,20 +701,11 @@ body {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.form-terms-icon {
-  position: relative;
-  width: 16px;
-  height: 15px;
-  top: 4px;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.form-terms-label:hover .form-terms-icon,
-.form-terms-label:focus .form-terms-icon,
-.form-terms-label:focus-within .form-terms-icon {
-  fill: var(--highlighted-color);
-}
-
 .form-terms-ch {
-  display: none;
+  position: relative;
+  top: 2px;
+}
+
+.form-terms-ch:hover {
+  border-color: var(--highlighted-color);
 }
